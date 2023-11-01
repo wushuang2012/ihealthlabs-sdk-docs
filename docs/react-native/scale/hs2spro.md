@@ -284,7 +284,7 @@ notifyListener = DeviceEventEmitter.addListener(HS2SProModule.Event_Notify,  (ev
 HS2SProModule.enterHS2SProHeartRateMeasurementMode(mac);
 
 notifyListener = DeviceEventEmitter.addListener(HS2SProModule.Event_Notify,  (event) => {
-    if (event.action === HS2SProfileModule.ACTION_HS2PRO_MEASURE_HEARTRATE) {
+    if (event.action === HS2SProfileModule.ACTION_HS2SPRO_MEASURE_HEARTRATE) {
        
     }
 });
